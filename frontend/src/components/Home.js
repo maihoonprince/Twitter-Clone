@@ -5,7 +5,7 @@ import Feed from "./Feed";
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex justify-around">
       <LeftSide />
       <Feed />
       <RightSide />
